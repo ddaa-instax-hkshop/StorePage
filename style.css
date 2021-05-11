@@ -1,7 +1,10 @@
 /*-- ------------------ --*/
-/*-- SPEAKINGOFCODE.com --*/
-/*-- ------------------ --*/
 
+
+/*-- SPEAKINGOFCODE.com --*/
+
+
+/*-- ------------------ --*/
 
 body {
     font-size: 14px;
@@ -9,20 +12,32 @@ body {
     background: #1f1f1f;
     color: #bbb;
 }
+
 h1 {
     font-size: 16pt;
     font-weight: lighter;
 }
+
 a {
     color: #fff;
 }
+
 #total {
     font-size: 12pt;
 }
-#total, #price, #priceb, #pricec, #priced, #pricee, #pricef, #pricez {
+
+#total,
+#price,
+#priceb,
+#pricec,
+#priced,
+#pricee,
+#pricef,
+#pricez {
     text-align: right;
     width: 60px;
 }
+
 #quoteme input {
     background: transparent;
     color: #ddd;
@@ -30,6 +45,7 @@ a {
     border: 0px solid #fff;
     margin-bottom: 20px;
 }
+
 #quoteme label {
     float: left;
     display: block;
@@ -39,16 +55,20 @@ a {
     font-family: Georgia;
     width: 340px;
 }
+
 #contenta {
-    padding:1px 0px 20px 0px;
+    padding: 1px 0px 20px 0px;
     display: block;
-    width:400px;
+    width: 400px;
     text-align: left;
     font-size: 12pt;
 }
+
 .pricepara {
-    text-align: right; font-size: 14pt;
+    text-align: right;
+    font-size: 14pt;
 }
+
 .pricepara #totalprice {
     padding-top: 0px;
     margin-top: 0px;
@@ -56,6 +76,7 @@ a {
     font-size: 14pt;
     font-weight: bold;
 }
+
 #total {
     font-family: 'Georgia', arial;
     width: 100px;
@@ -64,17 +85,24 @@ a {
     font-size: 38px;
     color: #fff;
 }
+
 #quoteme {
     width: 400px;
     display: block;
     background: #000;
-    float :left;
+    float: left;
     clear: both;
     padding: 30px 20px 10px 30px;
 }
-#slider, #sliderb, #sliderc, #sliderd, #slidere {
+
+#slider,
+#sliderb,
+#sliderc,
+#sliderd,
+#slidere {
     width: 400px;
 }
+
 input#submitbtn {
     display: block;
     width: 200px;
@@ -92,10 +120,15 @@ input#submitbtn {
     -webkit-border-bottom-right-radius: 3px;
     -webkit-border-bottom-left-radius: 3px;
 }
+
 p {
     font-size: 9pt;
     line-height: 16pt;
     margin-top: 20px;
+}
+
+p a {
+    font-size: 20px;
 }
 
 
@@ -105,8 +138,10 @@ p {
 * Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
 */
 
+
 /* Layout helpers
 ----------------------------------*/
+
 .ui-helper-hidden {
     display: none;
 }
@@ -139,7 +174,9 @@ p {
     display: inline-block;
 }
 
+
 /* required comment for clearfix to work in Opera \*/
+
 * html .ui-helper-clearfix {
     height: 1%;
 }
@@ -148,7 +185,9 @@ p {
     display: block;
 }
 
+
 /* end clearfix */
+
 .ui-helper-zfix {
     width: 100%;
     height: 100%;
@@ -159,16 +198,21 @@ p {
     filter: Alpha(Opacity=0);
 }
 
+
 /* Interaction Cues
 ----------------------------------*/
+
 .ui-state-disabled {
     cursor: default !important;
 }
 
+
 /* Icons
 ----------------------------------*/
 
+
 /* states and images */
+
 .ui-icon {
     display: block;
     text-indent: -99999px;
@@ -176,10 +220,13 @@ p {
     background-repeat: no-repeat;
 }
 
+
 /* Misc visuals
 ----------------------------------*/
 
+
 /* Overlays */
+
 .ui-widget-overlay {
     position: absolute;
     top: 0;
@@ -187,6 +234,7 @@ p {
     width: 100%;
     height: 100%;
 }
+
 
 /*
 * jQuery UI CSS Framework
@@ -198,12 +246,16 @@ p {
 
 /* Component containers
 ----------------------------------*/
+
 .ui-widget {
     font-family: Verdana, Arial, sans-serif;
     font-size: 1.1em;
 }
 
-.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
     font-family: Verdana, Arial, sans-serif;
     font-size: 1em;
 }
@@ -229,9 +281,12 @@ p {
     color: #222222;
 }
 
+
 /* Interaction states
 ----------------------------------*/
-.ui-state-default, .ui-widget-content .ui-state-default {
+
+.ui-state-default,
+.ui-widget-content .ui-state-default {
     border: 1px solid #d3d3d3;
     background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
     font-weight: normal;
@@ -239,13 +294,17 @@ p {
     outline: none;
 }
 
-.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
     color: #555555;
     text-decoration: none;
     outline: none;
 }
 
-.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus,
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-state-focus,
 .ui-widget-content .ui-state-focus {
     border: 1px solid #999999;
     background: #000 url(images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;
@@ -254,13 +313,15 @@ p {
     outline: none;
 }
 
-.ui-state-hover a, .ui-state-hover a:hover {
+.ui-state-hover a,
+.ui-state-hover a:hover {
     color: #212121;
     text-decoration: none;
     outline: none;
 }
 
-.ui-state-active, .ui-widget-content .ui-state-active {
+.ui-state-active,
+.ui-widget-content .ui-state-active {
     border: 1px solid #aaaaaa;
     background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
     font-weight: normal;
@@ -268,58 +329,73 @@ p {
     outline: none;
 }
 
-.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
     color: #212121;
     outline: none;
     text-decoration: none;
 }
 
+
 /* Interaction Cues
 ----------------------------------*/
-.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight {
     border: 1px solid #fcefa1;
     background: #fbf9ee url(images/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;
     color: #363636;
 }
 
-.ui-state-highlight a, .ui-widget-content .ui-state-highlight a {
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a {
     color: #363636;
 }
 
-.ui-state-error, .ui-widget-content .ui-state-error {
+.ui-state-error,
+.ui-widget-content .ui-state-error {
     border: 1px solid #cd0a0a;
     background: #fef1ec url(images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;
     color: #cd0a0a;
 }
 
-.ui-state-error a, .ui-widget-content .ui-state-error a {
+.ui-state-error a,
+.ui-widget-content .ui-state-error a {
     color: #cd0a0a;
 }
 
-.ui-state-error-text, .ui-widget-content .ui-state-error-text {
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text {
     color: #cd0a0a;
 }
 
-.ui-state-disabled, .ui-widget-content .ui-state-disabled {
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled {
     opacity: .35;
     filter: Alpha(Opacity=35);
     background-image: none;
 }
 
-.ui-priority-primary, .ui-widget-content .ui-priority-primary {
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary {
     font-weight: bold;
 }
 
-.ui-priority-secondary, .ui-widget-content .ui-priority-secondary {
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary {
     opacity: .7;
     filter: Alpha(Opacity=70);
     font-weight: normal;
 }
 
+
 /* Icons
 ----------------------------------*/
 
+
 /* states and images */
+
 .ui-icon {
     width: 16px;
     height: 16px;
@@ -338,7 +414,8 @@ p {
     background-image: url(images/ui-icons_888888_256x240.png);
 }
 
-.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
     background-image: url(images/ui-icons_454545_256x240.png);
 }
 
@@ -350,11 +427,14 @@ p {
     background-image: url(images/ui-icons_2e83ff_256x240.png);
 }
 
-.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
     background-image: url(images/ui-icons_cd0a0a_256x240.png);
 }
 
+
 /* positioning */
+
 .ui-icon-carat-1-n {
     background-position: 0 0;
 }
@@ -1047,10 +1127,13 @@ p {
     background-position: -80px -224px;
 }
 
+
 /* Misc visuals
 ----------------------------------*/
 
+
 /* Corner radius */
+
 .ui-corner-tl {
     -moz-border-radius-topleft: 0px;
     -webkit-border-top-left-radius: 4px;
@@ -1104,7 +1187,9 @@ p {
     -webkit-border-radius: 3px;
 }
 
+
 /* Overlays */
+
 .ui-widget-overlay {
     background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
     opacity: .30;
@@ -1121,8 +1206,10 @@ p {
     -webkit-border-radius: 8px;
 }
 
+
 /* Accordion
 ----------------------------------*/
+
 .ui-accordion .ui-accordion-header {
     cursor: pointer;
     position: relative;
@@ -1166,8 +1253,10 @@ p {
     display: block;
 }
 
+
 /* Datepicker
 ----------------------------------*/
+
 .ui-datepicker {
     width: 17em;
     padding: .2em .2em 0;
@@ -1178,14 +1267,16 @@ p {
     padding: .2em 0;
 }
 
-.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
     position: absolute;
     top: 2px;
     width: 1.8em;
     height: 1.8em;
 }
 
-.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover {
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
     top: 1px;
 }
 
@@ -1205,7 +1296,8 @@ p {
     right: 1px;
 }
 
-.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
     display: block;
     position: absolute;
     left: 50%;
@@ -1230,7 +1322,7 @@ p {
     width: 100%;
 }
 
-.ui-datepicker select.ui-datepicker-month, 
+.ui-datepicker select.ui-datepicker-month,
 .ui-datepicker select.ui-datepicker-year {
     width: 49%;
 }
@@ -1258,7 +1350,8 @@ p {
     padding: 1px;
 }
 
-.ui-datepicker td span, .ui-datepicker td a {
+.ui-datepicker td span,
+.ui-datepicker td a {
     display: block;
     padding: .2em;
     text-align: right;
@@ -1287,7 +1380,9 @@ p {
     float: left;
 }
 
+
 /* with multiple calendars */
+
 .ui-datepicker.ui-datepicker-multi {
     width: auto;
 }
@@ -1330,7 +1425,9 @@ p {
     width: 100%;
 }
 
+
 /* RTL support */
+
 .ui-datepicker-rtl {
     direction: rtl;
 }
@@ -1381,22 +1478,35 @@ p {
     border-left-width: 1px;
 }
 
+
 /* IE6 IFRAME FIX (taken from datepicker 1.5.3 */
+
 .ui-datepicker-cover {
-    display: none; /*sorry for IE5*/
-    display /**/
-    : block; /*sorry for IE5*/
-    position: absolute; /*must have*/
-    z-index: -1; /*must have*/
-    filter: mask(); /*must have*/
-    top: -4px; /*must have*/
-    left: -4px; /*must have*/
-    width: 200px; /*must have*/
-    height: 200px; /*must have*/
+    display: none;
+    /*sorry for IE5*/
+    display/**/
+    : block;
+    /*sorry for IE5*/
+    position: absolute;
+    /*must have*/
+    z-index: -1;
+    /*must have*/
+    filter: mask();
+    /*must have*/
+    top: -4px;
+    /*must have*/
+    left: -4px;
+    /*must have*/
+    width: 200px;
+    /*must have*/
+    height: 200px;
+    /*must have*/
 }
+
 
 /* Dialog
 ----------------------------------*/
+
 .ui-dialog {
     position: relative;
     padding: .2em;
@@ -1428,7 +1538,8 @@ p {
     margin: 1px;
 }
 
-.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus {
+.ui-dialog .ui-dialog-titlebar-close:hover,
+.ui-dialog .ui-dialog-titlebar-close:focus {
     padding: 0;
 }
 
@@ -1469,8 +1580,10 @@ p {
     cursor: move;
 }
 
+
 /* Progressbar
 ----------------------------------*/
+
 .ui-progressbar {
     height: 2em;
     text-align: left;
@@ -1481,8 +1594,10 @@ p {
     height: 100%;
 }
 
+
 /* Resizable
 ----------------------------------*/
+
 .ui-resizable {
     position: relative;
 }
@@ -1494,7 +1609,8 @@ p {
     display: block;
 }
 
-.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle {
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle {
     display: none;
 }
 
@@ -1562,8 +1678,10 @@ p {
     top: -5px;
 }
 
+
 /* Slider
 ----------------------------------*/
+
 .ui-slider {
     position: relative;
     text-align: left;
@@ -1645,8 +1763,10 @@ p {
     border: 0px;
 }
 
+
 /* Tabs
 ----------------------------------*/
+
 .ui-tabs {
     padding: .2em;
     zoom: 1;
@@ -1677,16 +1797,20 @@ p {
     border-bottom-width: 0;
 }
 
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
 .ui-tabs .ui-tabs-nav li.ui-state-processing a {
     cursor: text;
 }
 
-.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+.ui-tabs .ui-tabs-nav li a,
+.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
     cursor: pointer;
 }
 
+
 /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+
 .ui-tabs .ui-tabs-panel {
     padding: 1em 1.4em;
     display: block;
